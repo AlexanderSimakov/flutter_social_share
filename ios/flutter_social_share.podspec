@@ -13,7 +13,7 @@ A new Flutter project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'flutter_social_share/Sources/flutter_social_share/**/*.swift'
   s.dependency 'Flutter'
   s.dependency 'FBSDKCoreKit', '18.0.0'
   s.dependency 'FBSDKShareKit', '18.0.0'
