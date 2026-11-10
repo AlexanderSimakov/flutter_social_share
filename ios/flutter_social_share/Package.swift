@@ -14,7 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework"),
-        // Same major as the podspec's FBSDKCoreKit / FBSDKShareKit 18.0.0.
+        // The podspec pins FBSDKCoreKit / FBSDKShareKit 18.0.0 exactly. SPM
+        // allows any 18.x, like facebook_app_events, so apps get the newest one.
         .package(url: "https://github.com/facebook/facebook-ios-sdk.git", "18.0.0"..<"19.0.0")
     ],
     targets: [
